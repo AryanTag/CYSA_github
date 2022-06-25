@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Correcting Your Screen Addictions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400&display=swap" rel="stylesheet">
+
+  <audio id="notif_audio">
+  <source src="notification_sound.mp3">
+</audio>
+
+
+<a  class="color-button_icon color-button" id="color_button"></a>
+<img src="moon.png" alt="moon" class="moon">
+<!-- TOP ICON -->
+<h1 class="heading1">C<span class="short_heading">orrecting</span>&nbspY<span class="short_heading">our</span>&nbspS<span class="short_heading">creen</span>&nbspA<span class="short_heading">ddictions</span></h1>
+<!--  CAMERA POSTION -->
+<h1 class="arm-length">Sit at an arm's distance from screen</h1>
+<div class="cam_pos">
+    <!-- INPUT VIDEO -->
+<video class="input_video"></video>
+</div>
+<!-- Toggle for camera -->
+<h1 class="cam_off">OFF</h1>
+<input class="switch0" type="checkbox">
+<h1 class="cam_on">ON</h1>
+<!-- TOGGLES FOR ACTIONS -->
+<h1 class="check_1">Check my distance from screen</h1>
+<input class="switch1" type="checkbox">
+<h1 class="check_2">Check on my nail biting habit</h1>
+<input class="switch2" type="checkbox">
+
+
+
+<!-- LOADING CIRCLE -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_vbuetk4h.json" class="loading_circle removed" id="loading_circle" background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+
+ <!-- MORPHED GLASS CARD FOR i BUTTON -->
+<div class="container glass removed" id="glass">
+The screen time monitoring will remind you to look at something 20 feet away for 20 seconds, after every 20 minutes of screen-on time, according to the 20-20-20 rule.
+
+<br><br><br>The screen-to-face distance is measured in real-time and it will prevent you to sit too close to the digital screen. Before turning on your video it is crucial that you sit at a one-arm distance from the screen since that will be taken as the reference.
+<br><br><br>Nail biting? Our app will also nudge you if nail biting is observed in front of the camera.
+<br><br><br>FOR  BACKGROUND  FUNCTIONALITY,  OPEN THIS WEBSITE IN A SEPARATE WINDOW AND DO WHATEVER YOU WANT AFTER HOVERING ON THE MINIMISED BROWSER ICON THROUGH TASKBAR.
+
+</div>
+
+<!-- INPUT VIDEO -->
+<video class="input_video"></video>
+
+<!-- STATUS AREA -->
+<h3 class="h3_status0">Count Up Timer</h3>
+<h3 class="h3_status1">Screen Distance</h3>
+<h1 class="status_1">Safe</h1>
+<h3 class="h3_status2">Nail Biting</h3>
+<h1 class="status_2">Not detected</h1>
+
+
+<!-- FOR CUSTOM CURSOR -->
+<!-- <div class="cursor"></div> -->
+
+<div id="count_up_timer">0:0:0</div>
+
+<!-- i button -->
+<h6 class="i-button__icon i-button" id="i_button">i</h6>
+
+
+<!-- Shooting star -->
+<div class="stars opacityless">
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+</div>
+
+<div class="stars1 opacityless">
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+</div>
+
+<div class="stars2 opacityless">
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+</div>
+
+<!-- JAVASCRIPT TAGS -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_awltn16d.json" class="ready removed" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>
+    <script type="text/javascript" src="index.js">
+
+</script>
+  </body>
+</html>
