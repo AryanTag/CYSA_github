@@ -3,7 +3,6 @@ onblur = function() {
   setTimeout('self.focus()',1);
   }
 
-//prakhar's code
 var switch_1 = false;
 var switch_2 = false;
 document.getElementsByClassName("switch1")[0].addEventListener("click",function(){
@@ -203,7 +202,7 @@ function finger_in_mouth(results) //finger_tip_landmarks : [{x:___, y:___, x:___
 
   if(temp == true)
   {
-      //prakhar nail biting
+      //nail biting
       if(switch_2==true && hand_detected == true && face_detected == true)
       {
         audio.volume = 1;
@@ -243,7 +242,7 @@ function onResults(results)
     // if face is close to the screen then area value becomes greater than threshold_area + ideal_area
     if(calcPolygonArea(face_mesh_bbox_coords) > threshold_area + ideal_area)
     {
-        //prakhar safe distance
+        //safe distance
       if(switch_1==true && face_detected == true)
       {
         audio.volume = 1;
